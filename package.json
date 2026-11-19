@@ -1,0 +1,25 @@
+{
+    "name": "dynamodb-audit-logging-construct",
+    "version": "0.1.0",
+    "description": "Reusable L3 CDK construct for DynamoDB audit logging pipeline",
+    "main": "lib/index.ts",
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest run",
+        "test:watch": "vitest"
+    },
+    "devDependencies": {
+        "@types/node": "22.19.18",
+        "aws-cdk-lib": "2.257.0",
+        "cdk-nag": "2.38.2",
+        "constructs": "10.6.0",
+        "fast-check": "4.7.0",
+        "typescript": "5.9.3",
+        "vitest": "4.1.8"
+    },
+    "peerDependencies": {
+        "aws-cdk-lib": "2.257.0",
+        "constructs": "10.6.0"
+    }
+}

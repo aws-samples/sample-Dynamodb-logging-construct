@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript compiled output (when tsc emits next to source instead of dist/)
+lib/**/*.js
+lib/**/*.js.map
+lib/**/*.d.ts
+test/**/*.js
+test/**/*.js.map
+test/**/*.d.ts
+integ/lib/**/*.js
+integ/lib/**/*.js.map
+integ/lib/**/*.d.ts
+integ/bin/**/*.js
+integ/bin/**/*.js.map
+integ/bin/**/*.d.ts
+# Hand-written JS fixtures (Lambda handlers, etc.) must stay tracked
+!test/fixtures/**/*.js
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# CDK
+cdk.out/
+
+# Security scan reports (attached to the relevant ticket, not committed)
+checkov-report/
+ash-output/

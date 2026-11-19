@@ -1,0 +1,23 @@
+{
+    "name": "dynamodb-audit-logging-integ-test",
+    "version": "0.1.0",
+    "scripts": {
+        "build": "tsc",
+        "synth": "cdk synth",
+        "scan": "cdk synth --quiet && checkov -d cdk.out --framework cloudformation",
+        "deploy": "cdk deploy --require-approval never",
+        "destroy": "cdk destroy --force"
+    },
+    "dependencies": {
+        "aws-cdk-lib": "2.257.0",
+        "cdk-nag": "2.38.2",
+        "constructs": "10.6.0",
+        "source-map-support": "0.5.21"
+    },
+    "devDependencies": {
+        "@types/node": "22.19.18",
+        "aws-cdk": "2.1125.0",
+        "ts-node": "10.9.2",
+        "typescript": "5.9.3"
+    }
+}
