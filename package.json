@@ -16,7 +16,7 @@
         "constructs": "10.6.0",
         "fast-check": "4.7.0",
         "typescript": "5.9.3",
-        "vitest": "4.1.8"
+        "vitest": "4.1.11"
     },
     "peerDependencies": {
         "aws-cdk-lib": "2.257.0",
